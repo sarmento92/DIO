@@ -1,3 +1,29 @@
+## 🔧 Configuração
+
+1. **Crie uma conta OpenAI** (grátis com $5 crédito)
+   - Acesse: [platform.openai.com](https://platform.openai.com)
+   
+2. **Gere sua API Key:**
+   - Vá em "API Keys" → "Create new secret key"
+   - **Copie** a chave (aparece só uma vez!)
+
+3. **No Google Colab:**
+   - Painel esquerdo → ícone de cadeado 🔒
+   - "+ Novo segredo"
+   - Nome: `OPENAI_API_KEY`
+   - Valor: `sua-chave-aqui`
+
+4. **Execute as células** em ordem
+
+⚠️ **NUNCA** compartilhe sua API Key publicamente!
+
+
+
+
+
+
+
+
 # Assistente de Voz Inteligente com Whisper + ChatGPT
 
 Um assistente de voz completo que combina reconhecimento de fala (Whisper) com inteligência artificial conversacional (ChatGPT) para criar diálogos naturais entre humanos e máquinas.
